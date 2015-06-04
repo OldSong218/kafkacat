@@ -14,7 +14,7 @@ provided Kafka cluster (-b), topic (-t) and partition (-p).
 In **consumer** mode kafkacat reads messages from a topic and partition and
 prints them to stdout using the configured message delimiter.
 
-kafkacat also features a Metadata list (-L) mode to display the current
+`kafkacat` also features a Metadata list (-L) mode to display the current
 state of the Kafka cluster and its topics and partitions.
 
 kafkacat is fast and lightweight; statically linked it is no more than 150Kb.
